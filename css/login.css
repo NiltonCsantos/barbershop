@@ -1,55 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *    ,
+ * 26 | >>>>>>> 8bf269fbad40a9da9ab3acdfe912948b0e4b7892
+ *    |                                                 ^
+ *    '
+ *   sass\login\login.scss 26:49  root stylesheet */
 
-body {
-  background: url("../../imagens/background-login.jpg") no-repeat no-repeat;
-  background-size: cover;
-  color: white;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 26 \2502  >>>>>>> 8bf269fbad40a9da9ab3acdfe912948b0e4b7892\d\a    \2502                                                  ^\a    \2575 \a   sass\\login\\login.scss 26:49  root stylesheet';
 }
-body .container1 {
-  background-color: rgba(19, 18, 18, 0.9450980392);
-  width: 450px;
-  height: auto;
-}
-@media (max-width: 600px) {
-  body .container1 {
-    width: 95%;
-  }
-}
-
-.topLogo {
-  width: 280px;
-}
-
-#paragraph {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.btnSucess:hover {
-  background-color: #ff0043;
-  color: white;
-}
-
-.fotter {
-  margin-top: 30px;
-  margin-bottom: -30px;
-}
-
-.text-center {
-  padding: 15px;
-}
-
-.professionals {
-  display: flex;
-  gap: 10px;
-}
-
-.col {
-  width: 30px;
-}
-
-/*# sourceMappingURL=login.css.map */
