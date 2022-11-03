@@ -13,6 +13,11 @@ body {
     background-color: #131212f1;
     width: 450px;
     height: auto;
+
+    @media(max-width:600px){
+      width: 95%;
+    }
+
   }
 }
 .topLogo {

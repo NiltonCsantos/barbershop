@@ -14,6 +14,11 @@ body .container1 {
   width: 450px;
   height: auto;
 }
+@media (max-width: 600px) {
+  body .container1 {
+    width: 95%;
+  }
+}
 
 .topLogo {
   width: 280px;
