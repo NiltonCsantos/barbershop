@@ -13,42 +13,35 @@ body {
     background-color: #131212f1;
     width: 450px;
     height: auto;
-<<<<<<< HEAD
 
     @media(max-width:600px){
       width: 95%;
     }
-
-=======
-    @media(max-width:600px){
-      width:80%;
-    }
->>>>>>> 8bf269fbad40a9da9ab3acdfe912948b0e4b7892
   }
-}
-.topLogo {
-  width: 280px;
-}
-#paragraph {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
+  .topLogo {
+    width: 280px;
+  }
+  #paragraph {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 
-.btnSucess:hover {
-  background-color: #ff0043;
-  color: white;
-}
-.fotter {
-  margin-top: 30px;
-  margin-bottom: -30px;
-}
-.text-center{
-  padding: 15px;
-}
-.professionals{
-  display: flex;
-  gap: 10px;
-}
-.col{
-  width: 30px;
+  .btnSucess:hover {
+    background-color: #ff0043;
+    color: white;
+  }
+  .fotter {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+  .text-center{
+    padding: 15px;
+  }
+  .professionals{
+    display: flex;
+   gap: 10px;
+  }
+ .col{
+    width: 30px;
+  }
 }
