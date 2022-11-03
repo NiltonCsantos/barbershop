@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../../imagens/background-login.jpg") no-repeat no-repeat;
+  background-size: cover;
+  color: white;
+}
+body .container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 280px;
+}
+
+#paragraph {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.btnSucess:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+.fotter {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+.text-center {
+  padding: 15px;
+}
+
+.professionals {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  width: 30px;
+}
+
+/*# sourceMappingURL=login.css.map */
