@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url("../../imagens/background-login.jpg") no-repeat no-repeat;
+  background: url("../imagens/background-login.jpg") no-repeat no-repeat;
   background-size: cover;
   color: white;
 }
